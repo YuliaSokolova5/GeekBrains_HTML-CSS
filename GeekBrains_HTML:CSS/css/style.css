@@ -34,6 +34,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .product-title {
@@ -142,6 +143,7 @@ body {
     line-height: 24px;
 }
 .reviews {
+    padding-top: 25px;
     background: #F5F5F5;
 }
 .reviews-box{
@@ -190,10 +192,14 @@ body {
     border-radius: 5px;
 }
 
+.buy{
+    padding-top: 25px;
+}
 .buy-wrap{
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    flex-wrap: wrap;
 }
 
 .buy-box{
@@ -235,54 +241,126 @@ body {
     color: #FFFFFF;
     /*outline: 1px solid red ;*/
     margin: 8px 8px 16px 40px;
-}
-
-.buy-button {
 
 }
+
+
+
+.buy-btn {
+    background: #FFFFFF;
+    margin: 8px 8px 16px 20px;
+    width: 240px;
+    display: block;
+    padding: 10px 45px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #445162;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
 .contacts {
     background: #445162;
     color: #FFFFFF;
+    padding-top: 25px;
+
 
 }
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .contacts-title{
     color: #FFFFFF;
-}
-
-.contact-box{
-    display: flex;
-    justify-content: space-around;
-
-    align-items: center;
-    outline: 1px solid red ;
-
-}
-.contact-form{
-    outline: 1px solid deepskyblue ;
-}
-.contact-box-icons{
-    outline: 1px solid greenyellow ;
-    margin-top: 110px;
-    margin-right: 170px;
-}
-.copyright {
-    background: #F5F5F5;
     text-align: center;
-
 }
 
-.contact-icon-image{
-    margin-top: 49px;
-    margin-bottom: 143px;
+.contact-form{
+
+    margin-top: 43px;
+}
+
+.contact-icons-image{
+    margin-right: 10px;
+
 }
 .contact-channel {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     align-items: flex-start;
     text-align: left;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
 
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.contact-box-icons {
+
+    margin-left: 49px;
+    margin-top: 43px;
+}
+.contact-icon{
+    margin-top: 47px;
+}
+.form-field {
+    background: #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: block;
+    width: 500px;
+    box-sizing: border-box;
+    font-family: inherit;
+    border-radius: 8px;
+    border: none;
+    padding: 15px;
+    color: #445162;
+    font-size: 16px;
+}
+textarea.form-field {
+    resize: none;
+}
+.form-btn::placeholder {
+    color: #445162;
+    font-size: 16px;
+    font-family: inherit;
+
 }
 
+.form-btn {
+    margin: 0 auto;
+    display: block;
+    padding: 10px 45px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #445162;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 43px;
+}
+.contact-channel:hover,
+.contact-icon-image:hover,
+.buy-btn:hover,
+.form-field:hover,
+.form-btn:hover{
+    background: #989898;
+
+}
+
+.copyright {
+    background: #F5F5F5;
+    text-align: center;
+
+}
