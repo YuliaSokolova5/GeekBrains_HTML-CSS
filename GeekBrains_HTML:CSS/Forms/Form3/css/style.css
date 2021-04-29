@@ -1,0 +1,161 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-family: Georgia;
+    font-style: italic;
+    color: #545455;
+}
+.heading{
+    color: #344E78;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    /*border-buttom: 1px solid #D4D3D1; вставка серой линии*/
+    margin-bottom: 6px;
+
+}
+
+.contacts {
+
+   background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+   background-position: center;
+    width: 1000px;
+    height: 600px;
+
+    outline: 3px solid red ;
+    align-items: center;
+    /*padding: 73px 83px ;*/
+/*    font-family: Arial, Helvetica, sans-serif;*/
+/*    !*outline: 2px solid yellow ;*!*/
+}
+
+.contact-boxer{
+    outline: 3px solid blue ;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/bg_mails.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 873px;
+    height: 514px;
+    margin: 43px 83px;
+
+}
+
+.contact-box,
+.contact-address{
+    margin-top: 120px;
+}
+.address-list{
+    list-style: none;
+    margin-top: 20px;
+
+
+}
+.address-item{
+    font-family: Georgia;
+    font-style: italic;
+    color: #545455;
+    margin-top: 6px;
+
+}
+.contact-box {
+    margin-left: 149px;
+
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    font-family: Georgia;
+    font-style: italic;
+    color: #545455;
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+}
+.red{
+    color: red;
+}
+
+.form-field{
+    background: linear-gradient(90deg, #BBBBBB 18.37%, #BDBDBD 82.86%);
+    border-radius: 3px;
+    width: 400px;
+    height: 30px;
+    margin-top: 7px;
+}
+.form-btn{
+    margin-left: 320px;
+    margin-top: 15px;
+    width: 80px;
+    height: 25px;
+    border: 1px solid #A56169;
+    box-sizing: border-box;
+    color: #A56169;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+textarea.form-field {
+    resize: none;
+}
+
+
+/*.contact-form {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    !*justify-content: center;*!*/
+/*    !*width: 220px;*!*/
+/*    !*height: 40px;*!*/
+/*    margin: 59px 23px;*/
+/*    !*outline: 2px solid red ;*!*/
+/*}*/
+/*.form-field{*/
+/*    width: 220px;*/
+/*    height: 40px;*/
+/*    background: #E4E6E9;*/
+/*    border: 1px solid #C9C9C9;*/
+/*    box-sizing: border-box;*/
+/*    border-radius: 3px 3px 0px 0px;*/
+/*    padding-left: 13px;*/
+
+/*}*/
+
+/*.form-btn{*/
+/*    margin-top: 32px;*/
+/*    background: radial-gradient(100% 100% at 55.23% 100%, #DA944D 0%, #E3B557 100%);*/
+/*    border: 1px solid #EAB74E;*/
+/*    box-sizing: border-box;*/
+/*    border-radius: 3px;*/
+/*    padding-top: 11px;*/
+/*    padding-bottom: 11px;*/
+/*    font-weight: normal;*/
+/*    font-size: 16px;*/
+/*    line-height: 18px;*/
+/*    color: #FFFFFF;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.form-btn:hover{*/
+/*    background: #DA946D;*/
+/*}*/
+
+/*.form-btn::placeholder {*/
+/*    color: #636363;*/
+/*    font-size: 16px;*/
+/*    font-family: inherit;*/
+
+/*}*/
+
