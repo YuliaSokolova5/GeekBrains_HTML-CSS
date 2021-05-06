@@ -1,0 +1,266 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto/roboto-regular.woff"),
+        url("../fonts/Roboto/roboto-regular.woff2"),
+        url("../fonts/Roboto/Roboto-Regular.ttf");
+    font-weight: 400;
+
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto/Roboto-Medium.ttf"),
+        url("../fonts/Roboto/roboto-medium.woff"),
+        url("../fonts/Roboto/roboto-medium.woff2");
+    font-weight: 500;
+
+}
+
+.body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.heading{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.heading{
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #555555;
+}
+
+.text{
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #8C8C8C;
+}
+
+.header {
+    background-image: url("../img/bg_header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1920px;
+    height: 1024px;
+    /*outline: 2px solid deeppink;*/
+}
+
+.header-top{
+    /*outline: 2px solid deeppink;*/
+    width: 1920px;
+    height: 70px;
+    display: flex;
+    padding-top: 39px;
+}
+
+.header-top-logo{
+    display: flex;
+    margin-left: 323px;
+    cursor: pointer;
+
+}
+
+.header-logo-text{
+    font-family: Raleway;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+    color: #FFFFFF;
+
+}
+
+.header-top-menu{
+    display: flex;
+    margin-left: 380px;
+}
+.header-top-menu-item{
+    text-decoration: none;
+    padding-top: 17px;
+    margin-right: 25px;
+
+}
+.header-top-item-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.header-top-item-text:hover{
+    color: #C7B299;
+}
+
+.header-top-icons{
+    cursor: pointer;
+    margin-left: 29px;
+    margin-top: 10px;
+
+}
+.header-icons-img{
+    margin-right: 30px;
+}
+
+
+.header-buttom{
+    display: flex;
+    flex-direction: column;
+    /*outline: 1px solid greenyellow;*/
+    color: #FFFFFF;
+    width: 1920px;
+    height: 617px;
+    padding-top: 300px;
+    align-items: center;
+    padding-left: 30px;
+}
+.header-buttom-heading{
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.header-buttom-main{
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 61px;
+}
+
+.header-buttom-text{
+    margin-top: 4px;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+}
+
+.button{
+    margin-top: 39px;
+    background: #988574;
+    border-radius: 3px;
+    padding: 19px 40px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.product {
+    outline: 1px solid red ;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    /*align-items: left;*/
+    text-align: center;
+width: 1920px;
+    align-items: center;
+    /*margin-left: 30px;*/
+
+
+}
+.product-item {
+    /*outline: 1px solid blue ;*/
+    cursor: pointer;
+    margin-right: 30px;
+    /*margin-right: 375px;*/
+
+}
+
+.product-item-icon{
+    margin-bottom: 31px;
+
+}
+
+.heading-product{
+    margin-bottom: 20px;
+}
+
+.product-item:hover{
+    color: #C7B299;
+    border-bottom: 2px solid #C7B199;
+    border-width: 1px;
+}
+
+.product-text{
+    width: 270px;
+}
+/*Waxon is realization*/
+.realization{
+    background: #FBFAF8;
+    height: 700px;
+    width: 1920px;
+}
+.realization-text{
+    margin-top: 20px;
+
+}
+
+/*Purchase now*/
+
+.purchase{
+    background: radial-gradient(94.87% 15543.47% at 4.58% 100%, #211B19 0%, #4E3326 100%);
+    color: #E5E5E5;
+    width: 1920px;
+   padding: 0 345px 0 345px;
+
+}
+
+.purcase-heading {
+    display: flex;
+    padding-top: 44px;
+    justify-content:space-between;
+
+
+}
+
+.purchase-items{
+    display: flex;
+    /*padding-right: 345px;*/
+}
+
+.purcase-heading-item-one{
+    color: #C7B299;
+
+}
+.purchase-heading-item-two{
+    padding-left: 7px;
+
+}
+
+.purchase-text{
+    /*padding-bottom: 45px;*/
+}
+
+.purchase-btn{
+margin-right: 345px;
+}
+
+
